@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84201a7f-d54a-4564-9572-18acc33f0cb3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="84201a7f-d54a-4564-9572-18acc33f0cb3" name="Changes" comment="#comment 005">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/sel/FindElementConcept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/sel/HandleAuthentication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/sel/SelectDropDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/sel/UserAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/sel/WaitConcept.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/sel/Basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/sel/Basic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/sel/HandleFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/sel/HandleFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +26,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -42,11 +50,11 @@
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.17",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.updates"
+    "settings.editor.selected.configurable": "project.scopes"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="Basic.googleSearch" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.WaitConcept.waitConcept (1)">
+    <configuration name="UserAction.dragAndDrop" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SelenideTutorial" />
       <extension name="coverage">
         <pattern>
@@ -55,8 +63,80 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.sel" />
-      <option name="MAIN_CLASS_NAME" value="org.sel.Basic" />
-      <option name="METHOD_NAME" value="googleSearch" />
+      <option name="MAIN_CLASS_NAME" value="org.sel.UserAction" />
+      <option name="METHOD_NAME" value="dragAndDrop" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserAction.rightClick" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SelenideTutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.sel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.sel" />
+      <option name="MAIN_CLASS_NAME" value="org.sel.UserAction" />
+      <option name="METHOD_NAME" value="rightClick" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserAction.userAction" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SelenideTutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.sel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.sel" />
+      <option name="MAIN_CLASS_NAME" value="org.sel.UserAction" />
+      <option name="METHOD_NAME" value="userAction" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WaitConcept.waitConcept (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SelenideTutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.sel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.sel" />
+      <option name="MAIN_CLASS_NAME" value="org.sel.WaitConcept" />
+      <option name="METHOD_NAME" value="waitConcept" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WaitConcept.waitConcept" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SelenideTutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.sel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.sel" />
+      <option name="MAIN_CLASS_NAME" value="org.sel.WaitConcept" />
+      <option name="METHOD_NAME" value="waitConcept" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -66,7 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Basic.googleSearch" />
+        <item itemvalue="TestNG.WaitConcept.waitConcept (1)" />
+        <item itemvalue="TestNG.WaitConcept.waitConcept" />
+        <item itemvalue="TestNG.UserAction.rightClick" />
+        <item itemvalue="TestNG.UserAction.dragAndDrop" />
+        <item itemvalue="TestNG.UserAction.userAction" />
       </list>
     </recent_temporary>
   </component>
@@ -79,7 +163,62 @@
       <option name="presentableId" value="Default" />
       <updated>1708766539714</updated>
     </task>
+    <task id="LOCAL-00001" summary="#comment 001">
+      <created>1708844620488</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708844620488</updated>
+    </task>
+    <task id="LOCAL-00002" summary="#comment 002">
+      <created>1708845236668</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708845236668</updated>
+    </task>
+    <task id="LOCAL-00003" summary="#comment 003">
+      <created>1708846492455</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708846492455</updated>
+    </task>
+    <task id="LOCAL-00004" summary="#comment 004">
+      <created>1708846630220</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708846630220</updated>
+    </task>
+    <task id="LOCAL-00005" summary="#comment 005">
+      <created>1708876013545</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708876013545</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="#comment 001" />
+    <MESSAGE value="#comment 002" />
+    <MESSAGE value="#comment 003" />
+    <MESSAGE value="#comment 004" />
+    <MESSAGE value="#comment 005" />
+    <option name="LAST_COMMIT_MESSAGE" value="#comment 005" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
