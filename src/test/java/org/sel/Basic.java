@@ -20,5 +20,7 @@ public class Basic {
         String header = $(By.xpath("//h3[text()='Parambir Kumar - Vellore Institute of Technology - India']")).getText();
         System.out.println(header);
         Assert.assertEquals(header,"Parambir Kumar - Vellore Institute of Technology - India");
+        int count = $$(By.cssSelector(".LC20lb.MBeuO.DKV0Md")).size();
+        System.out.println(count);
     }
 }
