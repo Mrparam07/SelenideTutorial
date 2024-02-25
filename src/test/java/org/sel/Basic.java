@@ -3,6 +3,7 @@ package org.sel;
 
 import com.codeborne.selenide.Condition;
 import org.openqa.selenium.By;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import static com.codeborne.selenide.Selenide.*;
 import static com.codeborne.selenide.Condition.*;
@@ -14,9 +15,10 @@ public class Basic {
 //        $(By.name("q")).sendKeys("Parambir Kumar");
 //        $(By.name("btnK")).pressEnter();
 //        $(By.id("logo")).shouldHave(appear);
-          // Perform the search
         $("[name='q']").setValue("Parambir Kumar").pressEnter();
-          // Wait for the search results to appear
         $("#search").shouldBe(Condition.visible);
+        String header = $(By.xpath("//h3[text()='Parambir Kumar - Vellore Institute of Technology - India']")).getText();
+        System.out.println(header);
+        Assert.assertEquals(header,"Parambir Kumar - Vellore Institute of Technology - India");
     }
 }
