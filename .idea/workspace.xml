@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84201a7f-d54a-4564-9572-18acc33f0cb3" name="Changes" comment="#comment 004">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/sel/CloseBrowser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/sel/HandleFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/sel/JSAlertHandlePopup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/sel/LaunchBrowser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/sel/Navigation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/sel/WebDriverRunnerTest.java" afterDir="false" />
+    <list default="true" id="84201a7f-d54a-4564-9572-18acc33f0cb3" name="Changes" comment="#comment 005">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/sel/FindElementConcept.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/sel/HandleAuthentication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/sel/SelectDropDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/sel/UserAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/sel/WaitConcept.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/sel/Basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/sel/GoogleSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/sel/HandleFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/sel/HandleFrame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,8 +53,8 @@
     "settings.editor.selected.configurable": "project.scopes"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.JSAlertHandlePopup">
-    <configuration name="CloseBrowser.closeBrwoser" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.WaitConcept.waitConcept (1)">
+    <configuration name="UserAction.dragAndDrop" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SelenideTutorial" />
       <extension name="coverage">
         <pattern>
@@ -65,8 +63,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.sel" />
-      <option name="MAIN_CLASS_NAME" value="org.sel.CloseBrowser" />
-      <option name="METHOD_NAME" value="closeBrwoser" />
+      <option name="MAIN_CLASS_NAME" value="org.sel.UserAction" />
+      <option name="METHOD_NAME" value="dragAndDrop" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -74,7 +72,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JSAlertHandlePopup" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UserAction.rightClick" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SelenideTutorial" />
       <extension name="coverage">
         <pattern>
@@ -83,25 +81,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.sel" />
-      <option name="MAIN_CLASS_NAME" value="org.sel.JSAlertHandlePopup" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Navigation.navigationConcept" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SelenideTutorial" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.sel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.sel" />
-      <option name="MAIN_CLASS_NAME" value="org.sel.Navigation" />
-      <option name="METHOD_NAME" value="navigationConcept" />
+      <option name="MAIN_CLASS_NAME" value="org.sel.UserAction" />
+      <option name="METHOD_NAME" value="rightClick" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -109,7 +90,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebDriverRunnerTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UserAction.userAction" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SelenideTutorial" />
       <extension name="coverage">
         <pattern>
@@ -118,15 +99,16 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.sel" />
-      <option name="MAIN_CLASS_NAME" value="org.sel.WebDriverRunnerTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="org.sel.UserAction" />
+      <option name="METHOD_NAME" value="userAction" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebDriverRunnerTest.webDriverRunner" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="WaitConcept.waitConcept (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SelenideTutorial" />
       <extension name="coverage">
         <pattern>
@@ -135,8 +117,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.sel" />
-      <option name="MAIN_CLASS_NAME" value="org.sel.WebDriverRunnerTest" />
-      <option name="METHOD_NAME" value="webDriverRunner" />
+      <option name="MAIN_CLASS_NAME" value="org.sel.WaitConcept" />
+      <option name="METHOD_NAME" value="waitConcept" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WaitConcept.waitConcept" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SelenideTutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.sel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.sel" />
+      <option name="MAIN_CLASS_NAME" value="org.sel.WaitConcept" />
+      <option name="METHOD_NAME" value="waitConcept" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -146,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.JSAlertHandlePopup" />
-        <item itemvalue="TestNG.WebDriverRunnerTest.webDriverRunner" />
-        <item itemvalue="TestNG.WebDriverRunnerTest" />
-        <item itemvalue="TestNG.CloseBrowser.closeBrwoser" />
-        <item itemvalue="TestNG.Navigation.navigationConcept" />
+        <item itemvalue="TestNG.WaitConcept.waitConcept (1)" />
+        <item itemvalue="TestNG.WaitConcept.waitConcept" />
+        <item itemvalue="TestNG.UserAction.rightClick" />
+        <item itemvalue="TestNG.UserAction.dragAndDrop" />
+        <item itemvalue="TestNG.UserAction.userAction" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708846630220</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="#comment 005">
+      <created>1708876013545</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708876013545</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -210,7 +217,8 @@
     <MESSAGE value="#comment 002" />
     <MESSAGE value="#comment 003" />
     <MESSAGE value="#comment 004" />
-    <option name="LAST_COMMIT_MESSAGE" value="#comment 004" />
+    <MESSAGE value="#comment 005" />
+    <option name="LAST_COMMIT_MESSAGE" value="#comment 005" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
