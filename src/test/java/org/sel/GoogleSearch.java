@@ -1,12 +1,13 @@
 package org.sel;
 
+import com.codeborne.selenide.CollectionCondition;
 import com.codeborne.selenide.Condition;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import static com.codeborne.selenide.Selenide.*;
 
-public class Basic {
+public class GoogleSearch {
     @Test
     public void googleSearch() {
         open("https://www.google.com/");
@@ -19,6 +20,7 @@ public class Basic {
         System.out.println(header);
         Assert.assertEquals(header,"Parambir Kumar - Vellore Institute of Technology - India");
         int count = $$(By.cssSelector(".LC20lb.MBeuO.DKV0Md")).size();
+        $$(By.cssSelector(".LC20lb.MBeuO.DKV0Md")).shouldHave(CollectionCondition.size(9));
         System.out.println(count);
         Assert.assertEquals(count, 9);
     }
