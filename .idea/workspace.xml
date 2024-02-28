@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84201a7f-d54a-4564-9572-18acc33f0cb3" name="Changes" comment="#comment 005">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/sel/FindElementConcept.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/sel/HandleAuthentication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/sel/SelectDropDown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/sel/UserAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/sel/WaitConcept.java" afterDir="false" />
+    <list default="true" id="84201a7f-d54a-4564-9572-18acc33f0cb3" name="Changes" comment="#comment 006">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/GooglePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TestPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/resources/features/01_navigationOne.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/resources/features/02_locator.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runner/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/GoogleStepDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/TestPageStepDefinition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/sel/HandleFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/sel/HandleFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +35,14 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="recentNewPullRequestHead">
+      <RepoCoordinatesHolder>
+        <option name="owner" value="Mrparam07" />
+        <option name="repository" value="SelenideTutorial" />
+      </RepoCoordinatesHolder>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -47,63 +57,65 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "SDKs",
+    "last_opened_file_path": "D:/TechAndLearn/IdeaProjects/my-selenide-project-main",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.17",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "project.scopes"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.WaitConcept.waitConcept (1)">
-    <configuration name="UserAction.dragAndDrop" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: TC01_locators">
+    <configuration name="Scenario: TC01_locators" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/resources/features/02_locator.feature" />
+      <option name="GLUE" value="stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="SelenideTutorial" />
+      <option name="NAME_FILTER" value="^TC01_locators$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC01_locators$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC01_locators" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.sel.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.sel" />
-      <option name="MAIN_CLASS_NAME" value="org.sel.UserAction" />
-      <option name="METHOD_NAME" value="dragAndDrop" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserAction.rightClick" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: navigations test" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/resources/features/navigationOne.feature" />
+      <option name="GLUE" value="stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="SelenideTutorial" />
+      <option name="NAME_FILTER" value="^navigations test$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^navigations test$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: navigations test" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.sel.*" />
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.sel" />
-      <option name="MAIN_CLASS_NAME" value="org.sel.UserAction" />
-      <option name="METHOD_NAME" value="rightClick" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserAction.userAction" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SelenideTutorial" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.sel.*" />
+          <option name="PATTERN" value="runner.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.sel" />
-      <option name="MAIN_CLASS_NAME" value="org.sel.UserAction" />
-      <option name="METHOD_NAME" value="userAction" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <option name="PACKAGE_NAME" value="runner" />
+      <option name="MAIN_CLASS_NAME" value="runner.Runner" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -146,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: TC01_locators" />
+        <item itemvalue="JUnit.Runner" />
+        <item itemvalue="Cucumber Java.Scenario: navigations test" />
         <item itemvalue="TestNG.WaitConcept.waitConcept (1)" />
         <item itemvalue="TestNG.WaitConcept.waitConcept" />
-        <item itemvalue="TestNG.UserAction.rightClick" />
-        <item itemvalue="TestNG.UserAction.dragAndDrop" />
-        <item itemvalue="TestNG.UserAction.userAction" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708876013545</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="#comment 006">
+      <created>1708893258070</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708893258070</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -218,7 +237,8 @@
     <MESSAGE value="#comment 003" />
     <MESSAGE value="#comment 004" />
     <MESSAGE value="#comment 005" />
-    <option name="LAST_COMMIT_MESSAGE" value="#comment 005" />
+    <MESSAGE value="#comment 006" />
+    <option name="LAST_COMMIT_MESSAGE" value="#comment 006" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
