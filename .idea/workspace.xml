@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84201a7f-d54a-4564-9572-18acc33f0cb3" name="Changes" comment="#comment 006">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/GooglePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TestPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/resources/features/01_navigationOne.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/resources/features/02_locator.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runner/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/GoogleStepDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/TestPageStepDefinition.java" afterDir="false" />
+    <list default="true" id="84201a7f-d54a-4564-9572-18acc33f0cb3" name="Changes" comment="#comment 007">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/TestPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/TestPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/features/02_locator.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/features/02_locator.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefinitions/TestPageStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefinitions/TestPageStepDefinition.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,11 +53,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/TechAndLearn/IdeaProjects/my-selenide-project-main",
-    "project.structure.last.edited": "Modules",
+    "last_opened_file_path": "D:/TechAndLearn/Eclipse Workspace/File-Compression",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.17",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "project.scopes"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RunManager" selected="Cucumber Java.Scenario: TC01_locators">
@@ -217,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708893258070</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="#comment 007">
+      <created>1709147264345</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1709147264345</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -238,10 +241,16 @@
     <MESSAGE value="#comment 004" />
     <MESSAGE value="#comment 005" />
     <MESSAGE value="#comment 006" />
-    <option name="LAST_COMMIT_MESSAGE" value="#comment 006" />
+    <MESSAGE value="#comment 007" />
+    <option name="LAST_COMMIT_MESSAGE" value="#comment 007" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SelenideTutorial$Scenario__TC01_locators.ic" NAME="Scenario: TC01_locators Coverage Results" MODIFIED="1709216411921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>io.cucumber.core.cli.*</FILTER>
+    </SUITE>
   </component>
 </project>
